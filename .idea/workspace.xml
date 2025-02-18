@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="Add propertiesUtil &amp; application.properties">
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="using statement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/Main.java" afterDir="false" />
     </list>
@@ -82,7 +82,9 @@
       <workItem from="1739417682607" duration="1999000" />
       <workItem from="1739503906352" duration="3906000" />
       <workItem from="1739756060822" duration="21000" />
-      <workItem from="1739757250204" duration="1033000" />
+      <workItem from="1739757250204" duration="1172000" />
+      <workItem from="1739841449453" duration="19000" />
+      <workItem from="1739854154332" duration="1071000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -112,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739510955587</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="using statement">
+      <created>1739758414075</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739758414075</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +142,7 @@
     <MESSAGE value="create project" />
     <MESSAGE value="Add class ConnectionManager" />
     <MESSAGE value="Add propertiesUtil &amp; application.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add propertiesUtil &amp; application.properties" />
+    <MESSAGE value="using statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="using statement" />
   </component>
 </project>
