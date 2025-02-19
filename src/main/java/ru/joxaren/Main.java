@@ -2,10 +2,7 @@ package ru.joxaren;
 
 import org.postgresql.Driver;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class Main {
     public static void main(String[] args){
@@ -16,6 +13,7 @@ public class Main {
                 "data TEXT NOT NULL);";
          */
 
+        /*
         String sql = "insert into info (data) values" +
                 " ('test1')," +
                 " ('test2')," +
@@ -26,15 +24,27 @@ public class Main {
                 " ('test2')," +
                 " ('test3')," +
                 " ('test4');";
+      */
+
+        String sql = "SELECT * FROM ticket";
 
    // Class <Driver> driverClass = Driver.class;
         try (Connection connection = ConnectionManager.open();
             Statement statement = connection.createStatement()){
-
+             /*
             int executeUpdate = statement.executeUpdate(sql);
             System.out.println(executeUpdate);
             System.out.println(statement.getUpdateCount());
-            //System.out.println(connection.getTransactionIsolation());
+            //System.out.println(connection.getTransactionIsolation());*/
+
+            ResultSet resultSet = statement.executeQuery(sql);
+
+            while (resultSet.next()){
+                System.out.print(resultSet.getInt("id") + " ");
+                System.out.print(resultSet.getDouble("cost") + " ");
+                System.out.print(resultSet.getString("passenger_name") + "\n");
+            }
+
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

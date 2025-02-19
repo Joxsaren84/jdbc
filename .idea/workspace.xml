@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="using statement">
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="using statement execute &amp; executeUpdate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/Main.java" afterDir="false" />
     </list>
@@ -84,7 +84,9 @@
       <workItem from="1739756060822" duration="21000" />
       <workItem from="1739757250204" duration="1172000" />
       <workItem from="1739841449453" duration="19000" />
-      <workItem from="1739854154332" duration="1071000" />
+      <workItem from="1739854154332" duration="1137000" />
+      <workItem from="1739928943139" duration="15000" />
+      <workItem from="1739930046521" duration="1367000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -121,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739758414075</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="using statement execute &amp; executeUpdate">
+      <created>1739855284131</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739855284131</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +152,7 @@
     <MESSAGE value="Add class ConnectionManager" />
     <MESSAGE value="Add propertiesUtil &amp; application.properties" />
     <MESSAGE value="using statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="using statement" />
+    <MESSAGE value="using statement execute &amp; executeUpdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="using statement execute &amp; executeUpdate" />
   </component>
 </project>
