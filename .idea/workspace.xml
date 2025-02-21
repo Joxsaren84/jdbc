@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="using statement executeQuery">
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="using statement ResultSet. Generated keys">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/TestInjection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,20 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestInjection">
+    <configuration name="TestInjection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.joxaren.TestInjection" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.joxaren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ru.joxaren.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.Main" />
       <module name="jdbc" />
@@ -63,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestInjection" />
         <item itemvalue="Application.ru.joxaren.Main" />
       </list>
     </recent_temporary>
@@ -88,7 +102,9 @@
       <workItem from="1739928943139" duration="15000" />
       <workItem from="1739930046521" duration="1410000" />
       <workItem from="1740017563693" duration="14000" />
-      <workItem from="1740025077026" duration="2445000" />
+      <workItem from="1740025077026" duration="2593000" />
+      <workItem from="1740108383046" duration="12000" />
+      <workItem from="1740109745091" duration="2428000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -139,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739931454801</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="using statement ResultSet. Generated keys">
+      <created>1740030726269</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740030726269</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +186,7 @@
     <MESSAGE value="using statement" />
     <MESSAGE value="using statement execute &amp; executeUpdate" />
     <MESSAGE value="using statement executeQuery" />
-    <option name="LAST_COMMIT_MESSAGE" value="using statement executeQuery" />
+    <MESSAGE value="using statement ResultSet. Generated keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="using statement ResultSet. Generated keys" />
   </component>
 </project>
