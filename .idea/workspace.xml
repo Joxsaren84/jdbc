@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="using statement ResultSet. Generated keys">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/TestInjection.java" afterDir="false" />
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example with connection.PrepareStatement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/TestInjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/TestInjection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +105,10 @@
       <workItem from="1740025077026" duration="2593000" />
       <workItem from="1740108383046" duration="12000" />
       <workItem from="1740109745091" duration="2428000" />
+      <workItem from="1740112397395" duration="87000" />
+      <workItem from="1740355444458" duration="20000" />
+      <workItem from="1740362850116" duration="2990000" />
+      <workItem from="1740375150666" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -162,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740030726269</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="example with sql-injection">
+      <created>1740112462181</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740112462181</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +198,8 @@
     <MESSAGE value="using statement execute &amp; executeUpdate" />
     <MESSAGE value="using statement executeQuery" />
     <MESSAGE value="using statement ResultSet. Generated keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="using statement ResultSet. Generated keys" />
+    <MESSAGE value="example with sql-injection" />
+    <MESSAGE value="example with connection.PrepareStatement" />
+    <option name="LAST_COMMIT_MESSAGE" value="example with connection.PrepareStatement" />
   </component>
 </project>
