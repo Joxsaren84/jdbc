@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example with connection.PrepareStatement">
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example with connection.PrepareStatement (preparedStatement.setFetchSize,&#10;preparedStatement.setQueryTimeout, preparedStatement.setMaxRows)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/TestInjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/TestInjection.java" afterDir="false" />
     </list>
@@ -109,6 +109,9 @@
       <workItem from="1740355444458" duration="20000" />
       <workItem from="1740362850116" duration="2990000" />
       <workItem from="1740375150666" duration="16000" />
+      <workItem from="1740449743660" duration="354000" />
+      <workItem from="1740534554226" duration="32000" />
+      <workItem from="1740541885242" duration="2511000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -173,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740112462181</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="example with connection.PrepareStatement (preparedStatement.setFetchSize,&#10;preparedStatement.setQueryTimeout, preparedStatement.setMaxRows)">
+      <created>1740450081393</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740450081393</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +210,7 @@
     <MESSAGE value="using statement ResultSet. Generated keys" />
     <MESSAGE value="example with sql-injection" />
     <MESSAGE value="example with connection.PrepareStatement" />
-    <option name="LAST_COMMIT_MESSAGE" value="example with connection.PrepareStatement" />
+    <MESSAGE value="example with connection.PrepareStatement (preparedStatement.setFetchSize,&#10;preparedStatement.setQueryTimeout, preparedStatement.setMaxRows)" />
+    <option name="LAST_COMMIT_MESSAGE" value="example with connection.PrepareStatement (preparedStatement.setFetchSize,&#10;preparedStatement.setQueryTimeout, preparedStatement.setMaxRows)" />
   </component>
 </project>
