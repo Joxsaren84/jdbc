@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example with get metadata">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/TransactionRunner.java" afterDir="false" />
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example with transaction">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/DDLStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,20 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.TransactionRunner">
+  <component name="RunManager" selected="Application.DDLStatement">
+    <configuration name="DDLStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.joxaren.DDLStatement" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.joxaren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestInjection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.TestInjection" />
       <module name="jdbc" />
@@ -89,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DDLStatement" />
         <item itemvalue="Application.TransactionRunner" />
         <item itemvalue="Application.TestInjection" />
         <item itemvalue="Application.ru.joxaren.Main" />
@@ -127,7 +141,9 @@
       <workItem from="1740534554226" duration="32000" />
       <workItem from="1740541885242" duration="2511000" />
       <workItem from="1740553033897" duration="140000" />
-      <workItem from="1740623283393" duration="1847000" />
+      <workItem from="1740623283393" duration="1980000" />
+      <workItem from="1740633540751" duration="380000" />
+      <workItem from="1741061460589" duration="942000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -206,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740553137378</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="example with transaction">
+      <created>1740625226161</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740625226161</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +258,7 @@
     <MESSAGE value="example with connection.PrepareStatement" />
     <MESSAGE value="example with connection.PrepareStatement (preparedStatement.setFetchSize,&#10;preparedStatement.setQueryTimeout, preparedStatement.setMaxRows)" />
     <MESSAGE value="example with get metadata" />
-    <option name="LAST_COMMIT_MESSAGE" value="example with get metadata" />
+    <MESSAGE value="example with transaction" />
+    <option name="LAST_COMMIT_MESSAGE" value="example with transaction" />
   </component>
 </project>
