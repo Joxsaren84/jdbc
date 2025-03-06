@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example DDLStatement in single class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/DMLStatement.java" afterDir="false" />
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example DMLStatement in single class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/SelectStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.DMLStatement">
+  <component name="RunManager" selected="Application.SelectStatement">
     <configuration name="DDLStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.DDLStatement" />
       <module name="jdbc" />
@@ -63,6 +63,19 @@
     </configuration>
     <configuration name="DMLStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.DMLStatement" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.joxaren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.joxaren.SelectStatement" />
       <module name="jdbc" />
       <extension name="coverage">
         <pattern>
@@ -100,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.joxaren.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.joxaren.Main" />
-      <module name="jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.joxaren.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectStatement" />
         <item itemvalue="Application.DMLStatement" />
         <item itemvalue="Application.DDLStatement" />
         <item itemvalue="Application.TransactionRunner" />
         <item itemvalue="Application.TestInjection" />
-        <item itemvalue="Application.ru.joxaren.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +160,8 @@
       <workItem from="1741061460589" duration="1178000" />
       <workItem from="1741065338555" duration="53000" />
       <workItem from="1741139991763" duration="916000" />
-      <workItem from="1741155622246" duration="1704000" />
+      <workItem from="1741155622246" duration="1767000" />
+      <workItem from="1741227778700" duration="3615000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -253,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741062630040</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="example DMLStatement in single class">
+      <created>1741158238975</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741158238975</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +292,7 @@
     <MESSAGE value="example with get metadata" />
     <MESSAGE value="example with transaction" />
     <MESSAGE value="example DDLStatement in single class" />
-    <option name="LAST_COMMIT_MESSAGE" value="example DDLStatement in single class" />
+    <MESSAGE value="example DMLStatement in single class" />
+    <option name="LAST_COMMIT_MESSAGE" value="example DMLStatement in single class" />
   </component>
 </project>
