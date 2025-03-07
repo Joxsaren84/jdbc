@@ -1,7 +1,5 @@
 package ru.joxaren;
 
-import org.postgresql.Driver;
-
 import java.sql.*;
 
 public class Main {
