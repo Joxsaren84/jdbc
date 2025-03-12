@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example GeneratedKeysStatement in single class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/SqlInjectionStatement.java" afterDir="false" />
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example SqlInjectionStatement in single class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/PrepareStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,20 +48,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.GeneratedKeysStatement">
-    <configuration name="DDLStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.joxaren.DDLStatement" />
-      <module name="jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.joxaren.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrepareStatement">
     <configuration name="DMLStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.DMLStatement" />
       <module name="jdbc" />
@@ -77,6 +64,19 @@
     </configuration>
     <configuration name="GeneratedKeysStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.GeneratedKeysStatement" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.joxaren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrepareStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.joxaren.PrepareStatement" />
       <module name="jdbc" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrepareStatement" />
         <item itemvalue="Application.GeneratedKeysStatement" />
         <item itemvalue="Application.SqlInjectionStatement" />
         <item itemvalue="Application.DMLStatement" />
         <item itemvalue="Application.SelectStatement" />
-        <item itemvalue="Application.DDLStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +166,8 @@
       <workItem from="1741235513304" duration="11000" />
       <workItem from="1741312279576" duration="1060000" />
       <workItem from="1741320862158" duration="17000" />
-      <workItem from="1741657633679" duration="3027000" />
+      <workItem from="1741657633679" duration="3068000" />
+      <workItem from="1741744651291" duration="807000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -280,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741313317100</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="example SqlInjectionStatement in single class">
+      <created>1741660699938</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1741660699938</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +322,7 @@
     <MESSAGE value="example DMLStatement in single class" />
     <MESSAGE value="example SelectStatement in single class" />
     <MESSAGE value="example GeneratedKeysStatement in single class" />
-    <option name="LAST_COMMIT_MESSAGE" value="example GeneratedKeysStatement in single class" />
+    <MESSAGE value="example SqlInjectionStatement in single class" />
+    <option name="LAST_COMMIT_MESSAGE" value="example SqlInjectionStatement in single class" />
   </component>
 </project>
