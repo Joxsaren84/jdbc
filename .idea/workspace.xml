@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example PrepareStatement in single class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/FetchSizeStatement.java" afterDir="false" />
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example setFetchSize, setQueryTimeout, setMaxRows in single class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/GetMetadataStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +48,9 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.FetchSizeStatement">
-    <configuration name="DMLStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.joxaren.DMLStatement" />
+  <component name="RunManager" selected="Application.GetMetadataStatement">
+    <configuration name="GetMetadataStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.joxaren.GetMetadataStatement" />
       <module name="jdbc" />
       <extension name="coverage">
         <pattern>
@@ -62,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FetchSizeStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.joxaren.FetchSizeStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.FetchSizeStatement" />
       <module name="jdbc" />
       <extension name="coverage">
@@ -75,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeneratedKeysStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.joxaren.GeneratedKeysStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.GeneratedKeysStatement" />
       <module name="jdbc" />
       <extension name="coverage">
@@ -88,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrepareStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.joxaren.PrepareStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.PrepareStatement" />
       <module name="jdbc" />
       <extension name="coverage">
@@ -101,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqlInjectionStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.joxaren.SqlInjectionStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.SqlInjectionStatement" />
       <module name="jdbc" />
       <extension name="coverage">
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FetchSizeStatement" />
-        <item itemvalue="Application.PrepareStatement" />
-        <item itemvalue="Application.GeneratedKeysStatement" />
-        <item itemvalue="Application.SqlInjectionStatement" />
-        <item itemvalue="Application.DMLStatement" />
+        <item itemvalue="Application.GetMetadataStatement" />
+        <item itemvalue="Application.ru.joxaren.FetchSizeStatement" />
+        <item itemvalue="Application.ru.joxaren.PrepareStatement" />
+        <item itemvalue="Application.ru.joxaren.GeneratedKeysStatement" />
+        <item itemvalue="Application.ru.joxaren.SqlInjectionStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,9 @@
       <workItem from="1741657633679" duration="3068000" />
       <workItem from="1741744651291" duration="1106000" />
       <workItem from="1741761728237" duration="21000" />
-      <workItem from="1741841177402" duration="358000" />
+      <workItem from="1741841177402" duration="575000" />
+      <workItem from="1741845015047" duration="194000" />
+      <workItem from="1741917967183" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -297,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741745750665</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="example setFetchSize, setQueryTimeout, setMaxRows in single class">
+      <created>1741841692593</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741841692593</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +342,7 @@
     <MESSAGE value="example GeneratedKeysStatement in single class" />
     <MESSAGE value="example SqlInjectionStatement in single class" />
     <MESSAGE value="example PrepareStatement in single class" />
-    <option name="LAST_COMMIT_MESSAGE" value="example PrepareStatement in single class" />
+    <MESSAGE value="example setFetchSize, setQueryTimeout, setMaxRows in single class" />
+    <option name="LAST_COMMIT_MESSAGE" value="example setFetchSize, setQueryTimeout, setMaxRows in single class" />
   </component>
 </project>
