@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example setFetchSize, setQueryTimeout, setMaxRows in single class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/GetMetadataStatement.java" afterDir="false" />
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example GetMetadataStatement in single class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/TransactionStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +171,9 @@
       <workItem from="1741761728237" duration="21000" />
       <workItem from="1741841177402" duration="575000" />
       <workItem from="1741845015047" duration="194000" />
-      <workItem from="1741917967183" duration="310000" />
+      <workItem from="1741917967183" duration="546000" />
+      <workItem from="1741925924241" duration="48000" />
+      <workItem from="1742177606990" duration="2464000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -306,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741841692593</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="example GetMetadataStatement in single class">
+      <created>1741918491135</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1741918491135</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +352,7 @@
     <MESSAGE value="example SqlInjectionStatement in single class" />
     <MESSAGE value="example PrepareStatement in single class" />
     <MESSAGE value="example setFetchSize, setQueryTimeout, setMaxRows in single class" />
-    <option name="LAST_COMMIT_MESSAGE" value="example setFetchSize, setQueryTimeout, setMaxRows in single class" />
+    <MESSAGE value="example GetMetadataStatement in single class" />
+    <option name="LAST_COMMIT_MESSAGE" value="example GetMetadataStatement in single class" />
   </component>
 </project>
