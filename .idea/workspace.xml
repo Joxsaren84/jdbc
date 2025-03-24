@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example TransactionStatement in single class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/BatchStatement.java" afterDir="false" />
+    <list default="true" id="3103f2aa-c6b1-4380-83d2-d9c59a78c582" name="Changes" comment="example BatchStatement in single class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/BlobStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/boing777.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/PropertiesUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +50,14 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.BatchStatement">
-    <configuration name="BatchStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.joxaren.BatchStatement" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\jdbc\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BlobStatement">
+    <configuration name="BlobStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.joxaren.BlobStatement" />
       <module name="jdbc" />
       <extension name="coverage">
         <pattern>
@@ -62,20 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMetadataStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.joxaren.GetMetadataStatement" />
-      <module name="jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.joxaren.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.joxaren.FetchSizeStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FetchSizeStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.FetchSizeStatement" />
       <module name="jdbc" />
       <extension name="coverage">
@@ -88,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.joxaren.GeneratedKeysStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.joxaren.GeneratedKeysStatement" />
+    <configuration name="PrepareStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.joxaren.PrepareStatement" />
       <module name="jdbc" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +95,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.joxaren.PrepareStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.joxaren.PrepareStatement" />
+    <configuration name="ru.joxaren.BatchStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.joxaren.BatchStatement" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.joxaren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.joxaren.GetMetadataStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.joxaren.GetMetadataStatement" />
       <module name="jdbc" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BatchStatement" />
-        <item itemvalue="Application.GetMetadataStatement" />
+        <item itemvalue="Application.BlobStatement" />
+        <item itemvalue="Application.ru.joxaren.BatchStatement" />
+        <item itemvalue="Application.ru.joxaren.GetMetadataStatement" />
         <item itemvalue="Application.ru.joxaren.FetchSizeStatement" />
         <item itemvalue="Application.ru.joxaren.PrepareStatement" />
-        <item itemvalue="Application.ru.joxaren.GeneratedKeysStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +182,9 @@
       <workItem from="1741925924241" duration="48000" />
       <workItem from="1742177606990" duration="2530000" />
       <workItem from="1742190109166" duration="19000" />
-      <workItem from="1742263584886" duration="1107000" />
+      <workItem from="1742263584886" duration="1472000" />
+      <workItem from="1742272090974" duration="7000" />
+      <workItem from="1742792436485" duration="6026000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1739330003254</created>
@@ -324,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742180122670</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="example BatchStatement in single class">
+      <created>1742264894111</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1742264894111</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +379,7 @@
     <MESSAGE value="example setFetchSize, setQueryTimeout, setMaxRows in single class" />
     <MESSAGE value="example GetMetadataStatement in single class" />
     <MESSAGE value="example TransactionStatement in single class" />
-    <option name="LAST_COMMIT_MESSAGE" value="example TransactionStatement in single class" />
+    <MESSAGE value="example BatchStatement in single class" />
+    <option name="LAST_COMMIT_MESSAGE" value="example BatchStatement in single class" />
   </component>
 </project>

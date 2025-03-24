@@ -1,6 +1,5 @@
 package ru.joxaren;
 
-import javax.imageio.IIOException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
