@@ -17,7 +17,7 @@ public class TransactionStatement {
         PreparedStatement statement2 = null;
 
         try{
-            connection = ConnectionManager.open();
+            connection = ConnectionManager.get();
             statement1 = connection.prepareStatement(sql1);
             statement2 = connection.prepareStatement(sql2);
 

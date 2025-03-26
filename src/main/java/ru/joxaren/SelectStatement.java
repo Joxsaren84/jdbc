@@ -12,7 +12,7 @@ public class SelectStatement {
 
         String sql = "SELECT * FROM ticket;";
 
-        try(Connection connection = ConnectionManager.open()){
+        try(Connection connection = ConnectionManager.get()){
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
 

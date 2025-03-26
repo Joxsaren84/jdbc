@@ -10,7 +10,7 @@ public class DDLStatement {
 
         String sql = "CREATE DATABASE gamedb;";
 
-        try(Connection connection = ConnectionManager.open()){
+        try(Connection connection = ConnectionManager.get()){
             Statement statement = connection.createStatement();
             Boolean result = statement.execute(sql);
             System.out.println(result);

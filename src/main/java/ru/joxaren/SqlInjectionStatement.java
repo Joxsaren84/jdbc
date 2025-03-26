@@ -19,7 +19,7 @@ public class SqlInjectionStatement {
 
         List<Long> result = new ArrayList<>();
 
-        try(Connection connection = ConnectionManager.open();){
+        try(Connection connection = ConnectionManager.get()){
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
             while (resultSet.next()){

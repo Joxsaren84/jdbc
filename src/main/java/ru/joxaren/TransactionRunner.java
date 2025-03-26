@@ -10,7 +10,7 @@ public class TransactionRunner {
         String deleteFlightSql = "DELETE from flight where ?";
         long flightId = 9;
 
-        try(Connection connection = ConnectionManager.open();
+        try(Connection connection = ConnectionManager.get();
             PreparedStatement preparedStatement = connection.prepareStatement(deleteFlightSql);
         ){
             preparedStatement.setLong(1, flightId);

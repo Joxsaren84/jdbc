@@ -8,11 +8,16 @@ import java.sql.SQLException;
 public class GetMetadataStatement {
 
     public static void main(String[] args) {
-        checkMetaData();
+        try {
+            checkMetaData();
+        }finally {
+            ConnectionManager.closePool();
+        }
+
     }
 
     private static void checkMetaData() {
-        try (Connection connection = ConnectionManager.open()) {
+        try (Connection connection = ConnectionManager.get()) {
             DatabaseMetaData databaseMetaData = connection.getMetaData();
             ResultSet catalogs = databaseMetaData.getCatalogs();
 

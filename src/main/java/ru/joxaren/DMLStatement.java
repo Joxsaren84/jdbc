@@ -13,7 +13,7 @@ public class DMLStatement {
                 " ('test3')," +
                 " ('test4');";
 
-        try(Connection connection = ConnectionManager.open()){
+        try(Connection connection = ConnectionManager.get()){
             Statement statement = connection.createStatement();
             int result = statement.executeUpdate(sql);
             System.out.println(result);

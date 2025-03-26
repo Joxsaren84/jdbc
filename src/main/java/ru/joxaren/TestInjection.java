@@ -18,7 +18,7 @@ public class TestInjection {
     }
 
     private static void checkMetaData(){
-        try(Connection connection = ConnectionManager.open()){
+        try(Connection connection = ConnectionManager.get()){
             DatabaseMetaData databaseMetaData = connection.getMetaData();
             ResultSet catalogs = databaseMetaData.getCatalogs();
 
@@ -48,7 +48,7 @@ public class TestInjection {
 
         List<Long> result = new ArrayList<>();
 
-        try(Connection connection = ConnectionManager.open()){
+        try(Connection connection = ConnectionManager.get()){
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setTimestamp(1, Timestamp.valueOf(start));
             preparedStatement.setTimestamp(2, Timestamp.valueOf(end));
@@ -71,7 +71,7 @@ public class TestInjection {
         List<Long> result = new ArrayList<>();
 
 
-        try(Connection connection = ConnectionManager.open()){
+        try(Connection connection = ConnectionManager.get()){
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setFetchSize(50);
             preparedStatement.setQueryTimeout(10);

@@ -19,7 +19,7 @@ public class BatchStatement {
 
 
         try{
-            connection = ConnectionManager.open();
+            connection = ConnectionManager.get();
             connection.setAutoCommit(false);
             statement = connection.createStatement();
 

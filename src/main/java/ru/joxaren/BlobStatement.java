@@ -22,7 +22,7 @@ public class BlobStatement {
     private static void getImage() throws SQLException, IOException {
         String sql = "SELECT image from aircraft where id = ?";
 
-        try(Connection connection = ConnectionManager.open();
+        try(Connection connection = ConnectionManager.get();
             PreparedStatement preparedStatement = connection.prepareStatement(sql)){
             preparedStatement.setInt(1, 2);
             ResultSet result = preparedStatement.executeQuery();
@@ -38,7 +38,7 @@ public class BlobStatement {
 
         String sql = "UPDATE aircraft SET image = ? WHERE id = 2";
 
-        try(Connection connection = ConnectionManager.open();
+        try(Connection connection = ConnectionManager.get();
             PreparedStatement preparedStatement = connection.prepareStatement(sql)){
                 preparedStatement.setBytes(1, Files.readAllBytes(Path.of("src\\main","resources\\boing777.jpg")));
                 preparedStatement.executeUpdate();

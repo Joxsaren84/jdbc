@@ -21,7 +21,7 @@ public class FetchSizeStatement {
 
         List<Long> result = new ArrayList<>();
 
-        try(Connection connection = ConnectionManager.open();){
+        try(Connection connection = ConnectionManager.get();){
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             preparedStatement.setLong(1, flightId);
